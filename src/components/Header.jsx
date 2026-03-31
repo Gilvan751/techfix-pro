@@ -37,7 +37,9 @@ export default function Header() {
 
         {/* Phone CTA */}
         <a
-          href="tel:6634013354"
+          href="https://wa.me/556634013354?text=Olá%20quero%20um%20orçamento"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 bg-brand-blue hover:bg-blue-700 transition-colors px-4 py-2 rounded-lg text-sm font-semibold"
         >
           <Phone size={15} />
@@ -64,7 +66,9 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="tel:6634013354"
+            href="https://wa.me/556634013354?text=Olá%20quero%20um%20orçamento"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-3 flex items-center justify-center gap-2 bg-brand-blue px-4 py-3 rounded-lg text-sm font-semibold"
           >
             <Phone size={15} />

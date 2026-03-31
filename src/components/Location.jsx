@@ -59,9 +59,19 @@ export default function Location() {
               <Phone size={20} className="text-purple-500 mt-0.5 shrink-0" />
               <div>
                 <p className="font-semibold text-brand-dark">Telefone / WhatsApp</p>
-                <a href="tel:6634013354" className="text-brand-blue text-sm hover:underline">(66) 3401-3354</a>
+                <a
+                  href="https://wa.me/556634013354?text=Olá%20quero%20um%20orçamento"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brand-blue text-sm hover:underline"
+                >(66) 3401-3354</a>
                 <span className="text-gray-400 text-sm"> / </span>
-                <a href="tel:6699938-9100" className="text-brand-blue text-sm hover:underline">(66) 99938-9100</a>
+                <a
+                  href="https://wa.me/5566999389100?text=Olá%20quero%20um%20orçamento"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brand-blue text-sm hover:underline"
+                >(66) 99938-9100</a>
               </div>
             </div>
 
