@@ -2,7 +2,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import TrustBadges from './components/TrustBadges'
 import Services from './components/Services'
-import QuoteForm from './components/QuoteForm'
+import Orcamento from './components/Orcamento'
 import OrderTracking from './components/OrderTracking'
 import Accessories from './components/Accessories'
 import Location from './components/Location'
@@ -16,7 +16,7 @@ export default function App() {
         <Hero />
         <TrustBadges />
         <Services />
-        <QuoteForm />
+        <Orcamento />
         <OrderTracking />
         <Accessories />
         <Location />
