@@ -10,9 +10,11 @@ const products = [
 ]
 
 export default function Accessories() {
-  function buildWhatsApp(product) {
-    const msg = encodeURIComponent(`Olá! Tenho interesse no produto: ${product}`)
-    return `https://wa.me/5566999389100?text=${msg}`
+  function buildWhatsApp(product, price) {
+    const msg = encodeURIComponent(
+      `Olá! Tenho interesse no seguinte produto:\n\n🛍️ Produto: ${product}\n💰 Valor: ${price}\n📍 Cidade: Barra do Garças\n\nAinda está disponível?`
+    )
+    return `https://wa.me/556634013354?text=${msg}`
   }
 
   return (
@@ -32,7 +34,7 @@ export default function Accessories() {
               <div className="flex items-center justify-between mt-auto">
                 <span className="font-extrabold text-brand-blue text-sm">{p.price}</span>
                 <a
-                  href={buildWhatsApp(p.name)}
+                  href={buildWhatsApp(p.name, p.price)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-brand-green hover:bg-green-500 text-white p-2 rounded-lg transition-colors"

@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/5566999389100?text=Olá!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda."
+      href={`https://wa.me/556634013354?text=${encodeURIComponent('Olá! Preciso de assistência para meu celular.\n\n📱 Modelo: \n🔧 Defeito: \n⏱️ Urgência: \n📍 Cidade: Barra do Garças\n\nVi que vocês fazem reparo rápido 👍')}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Falar no WhatsApp"

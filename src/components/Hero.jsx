@@ -1,7 +1,7 @@
 import { Zap, Search, MessageCircle } from 'lucide-react'
 
 export default function Hero() {
-  const whatsapp = 'https://wa.me/5566999389100?text=Olá!%20Gostaria%20de%20um%20orçamento%20rápido.'
+  const whatsapp = `https://wa.me/556634013354?text=${encodeURIComponent('Olá! Preciso de assistência para meu celular.\n\n📱 Modelo: \n🔧 Defeito: \n⏱️ Urgência: \n📍 Cidade: Barra do Garças\n\nVi que vocês fazem reparo rápido 👍')}`
 
   return (
     <section className="bg-gradient-to-br from-brand-dark via-[#1a2332] to-[#0052CC] text-white py-16 px-4">

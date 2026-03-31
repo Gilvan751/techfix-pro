@@ -91,7 +91,7 @@ export default function Location() {
             </div>
 
             <a
-              href="https://wa.me/5566999389100"
+              href={`https://wa.me/556634013354?text=${encodeURIComponent('Olá! Preciso de assistência para meu celular.\n\n📱 Modelo: \n🔧 Defeito: \n⏱️ Urgência: \n📍 Cidade: Barra do Garças\n\nVi que vocês fazem reparo rápido 👍')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full bg-brand-green hover:bg-green-500 text-white font-bold py-3 rounded-xl transition-colors text-sm"

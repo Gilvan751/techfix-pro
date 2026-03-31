@@ -34,9 +34,9 @@ export default function QuoteForm() {
 
   function buildWhatsApp() {
     const msg = encodeURIComponent(
-      `Olá! Gostaria de um orçamento:\n\n📱 Marca: ${brand}\n📲 Modelo: ${model}\n🔧 Problema: ${problem}\n👤 Nome: ${name || 'Não informado'}`
+      `Olá! Preciso de assistência para meu celular.\n\n📱 Marca: ${brand}\n📲 Modelo: ${model}\n🔧 Defeito: ${problem}\n👤 Nome: ${name || 'Não informado'}\n📍 Cidade: Barra do Garças\n\nVi que vocês fazem reparo rápido 👍`
     )
-    return `https://wa.me/5566999389100?text=${msg}`
+    return `https://wa.me/556634013354?text=${msg}`
   }
 
   const steps = ['Marca', 'Modelo', 'Problema', 'Enviar']
